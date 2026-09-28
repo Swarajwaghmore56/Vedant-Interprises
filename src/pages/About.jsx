@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function About() {
     return (
         <div className="about-page">
@@ -18,7 +20,6 @@ function About() {
                 </p>
 
             </section>
-
 
             <section className="about-intro">
 
@@ -47,7 +48,6 @@ function About() {
                             </div>
 
                         </div>
-
 
                         <div className="col-lg-6">
 
@@ -90,7 +90,6 @@ function About() {
 
             </section>
 
-
             <section className="about-stats">
 
                 <div className="container-fluid">
@@ -115,7 +114,6 @@ function About() {
 
                         </div>
 
-
                         <div className="col-lg-3 col-md-6">
 
                             <div className="about-stat-card">
@@ -134,7 +132,6 @@ function About() {
 
                         </div>
 
-
                         <div className="col-lg-3 col-md-6">
 
                             <div className="about-stat-card">
@@ -152,7 +149,6 @@ function About() {
                             </div>
 
                         </div>
-
 
                         <div className="col-lg-3 col-md-6">
 
@@ -178,7 +174,6 @@ function About() {
 
             </section>
 
-
             <section className="mission-section">
 
                 <div className="container-fluid">
@@ -200,7 +195,6 @@ function About() {
                         </p>
 
                     </div>
-
 
                     <div className="row g-4">
 
@@ -226,7 +220,6 @@ function About() {
 
                         </div>
 
-
                         <div className="col-lg-4">
 
                             <div className="about-feature-card">
@@ -249,7 +242,6 @@ function About() {
                             </div>
 
                         </div>
-
 
                         <div className="col-lg-4">
 
@@ -278,7 +270,6 @@ function About() {
                 </div>
 
             </section>
-
 
             <section className="about-capabilities">
 
@@ -339,7 +330,6 @@ function About() {
 
                         </div>
 
-
                         <div className="col-lg-5">
 
                             <div className="capability-box">
@@ -366,7 +356,6 @@ function About() {
 
             </section>
 
-
             <section className="about-cta">
 
                 <div className="container">
@@ -387,13 +376,13 @@ function About() {
                             Talk to our team today.
                         </p>
 
-                        <a
-                            href="/contact"
+                        <Link
+                            to="/contact"
                             className="cta-btn"
                         >
                             Contact Us
                             <i className="bi bi-arrow-right"></i>
-                        </a>
+                        </Link>
 
                     </div>
 
@@ -406,4 +395,3 @@ function About() {
 }
 
 export default About;
-
