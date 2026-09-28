@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Products() {
     return (
         <div className="products-page">
@@ -19,8 +21,6 @@ function Products() {
 
             </section>
 
-
-            {/* PRESS TOOLS */}
 
             <section className="products-list-section">
 
@@ -144,8 +144,6 @@ function Products() {
             </section>
 
 
-            {/* MACHINE SETUP */}
-
             <section className="machine-capabilities-section">
 
                 <div className="container-fluid">
@@ -170,8 +168,6 @@ function Products() {
 
 
                     <div className="row g-4">
-
-                        {/* HURON */}
 
                         <div className="col-lg-6">
 
@@ -218,8 +214,6 @@ function Products() {
                         </div>
 
 
-                        {/* DUFOUR */}
-
                         <div className="col-lg-6">
 
                             <div className="product-card">
@@ -265,8 +259,6 @@ function Products() {
                         </div>
 
 
-                        {/* PACMILL */}
-
                         <div className="col-lg-6">
 
                             <div className="product-card">
@@ -311,8 +303,6 @@ function Products() {
 
                         </div>
 
-
-                        {/* GRINDING */}
 
                         <div className="col-lg-6">
 
@@ -365,8 +355,6 @@ function Products() {
             </section>
 
 
-            {/* MEASUREMENT & INSPECTION */}
-
             <section className="inspection-section">
 
                 <div className="container-fluid">
@@ -390,8 +378,6 @@ function Products() {
 
 
                     <div className="row g-4">
-
-                        {/* SURFACE TABLE */}
 
                         <div className="col-lg-3 col-md-6">
 
@@ -418,8 +404,6 @@ function Products() {
                         </div>
 
 
-                        {/* HEIGHT GAUGE */}
-
                         <div className="col-lg-3 col-md-6">
 
                             <div className="product-card">
@@ -445,8 +429,6 @@ function Products() {
                         </div>
 
 
-                        {/* VERNIER */}
-
                         <div className="col-lg-3 col-md-6">
 
                             <div className="product-card">
@@ -471,8 +453,6 @@ function Products() {
 
                         </div>
 
-
-                        {/* MICROMETER */}
 
                         <div className="col-lg-3 col-md-6">
 
@@ -504,8 +484,6 @@ function Products() {
 
             </section>
 
-
-            {/* SUPPORTING OPERATIONS */}
 
             <section className="supporting-operations-section">
 
@@ -584,8 +562,6 @@ function Products() {
             </section>
 
 
-            {/* CTA */}
-
             <section className="products-cta">
 
                 <h2>
@@ -596,13 +572,13 @@ function Products() {
                     Share your tooling requirement with our team.
                 </p>
 
-                <a
-                    href="/contact"
+                <Link
+                    to="/contact"
                     className="primary-btn"
                 >
                     Get a Quote
                     <i className="bi bi-arrow-right"></i>
-                </a>
+                </Link>
 
             </section>
 
@@ -611,5 +587,3 @@ function Products() {
 }
 
 export default Products;
-
-

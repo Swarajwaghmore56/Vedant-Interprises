@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Industries() {
     return (
         <div className="industries-page">
@@ -13,7 +15,7 @@ function Industries() {
                 </h1>
 
                 <p>
-                    Industrial component solutions for demanding
+                    Sheet metal press tooling solutions for different
                     engineering and manufacturing applications.
                 </p>
 
@@ -33,12 +35,12 @@ function Industries() {
                                 <i className="bi bi-gear-wide-connected"></i>
 
                                 <h3>
-                                    INDUSTRIAL SOLUTIONS
+                                    TOOLING SOLUTIONS
                                 </h3>
 
                                 <p>
-                                    Engineering components for multiple
-                                    industrial applications.
+                                    Press tools for different sheet metal
+                                    manufacturing applications.
                                 </p>
 
                             </div>
@@ -53,21 +55,22 @@ function Industries() {
                             </span>
 
                             <h2 className="inner-heading">
-                                Components Designed
+                                Press Tools Designed
                                 For Industrial Applications
                             </h2>
 
                             <p className="inner-description">
-                                PS Industrial Components Pvt. Ltd. supports
-                                customers across different industrial sectors
-                                with precision-engineered components and
-                                customized manufacturing solutions.
+                                Vedant Enterprises specializes in sheet metal
+                                press tools including forming, blanking,
+                                piercing and bending tools for industrial
+                                manufacturing requirements.
                             </p>
 
                             <p className="inner-description">
-                                Our component manufacturing approach can be
-                                adapted to different machinery, equipment
-                                and engineering applications.
+                                Our tooling solutions can support different
+                                machinery, equipment and engineering
+                                applications according to customer
+                                requirements.
                             </p>
 
                         </div>
@@ -86,7 +89,7 @@ function Industries() {
                     <div className="home-section-heading">
 
                         <span className="section-tag">
-                            SECTORS WE SERVE
+                            APPLICATION AREAS
                         </span>
 
                         <h2>
@@ -111,9 +114,9 @@ function Industries() {
                                 </h3>
 
                                 <p>
-                                    Components for automotive manufacturing,
-                                    machinery and supporting engineering
-                                    applications.
+                                    Press tooling solutions for sheet metal
+                                    components used in automotive
+                                    manufacturing applications.
                                 </p>
 
                                 <span>
@@ -138,8 +141,9 @@ function Industries() {
                                 </h3>
 
                                 <p>
-                                    Precision components for engineering
-                                    machinery and industrial equipment.
+                                    Tooling solutions for engineering
+                                    machinery and industrial manufacturing
+                                    applications.
                                 </p>
 
                                 <span>
@@ -164,8 +168,9 @@ function Industries() {
                                 </h3>
 
                                 <p>
-                                    Durable components designed for
-                                    demanding machinery applications.
+                                    Sheet metal tooling for demanding
+                                    machinery and equipment manufacturing
+                                    applications.
                                 </p>
 
                                 <span>
@@ -190,8 +195,9 @@ function Industries() {
                                 </h3>
 
                                 <p>
-                                    Industrial component solutions for
-                                    energy-related equipment and systems.
+                                    Tooling solutions for sheet metal
+                                    components used in energy-related
+                                    equipment applications.
                                 </p>
 
                                 <span>
@@ -216,7 +222,7 @@ function Industries() {
                                 </h3>
 
                                 <p>
-                                    Components for industrial machines,
+                                    Press tools for industrial machines,
                                     equipment and production systems.
                                 </p>
 
@@ -238,12 +244,13 @@ function Industries() {
                                 </div>
 
                                 <h3>
-                                    Custom Engineering
+                                    Custom Tooling
                                 </h3>
 
                                 <p>
-                                    Customized components developed around
-                                    specific customer requirements.
+                                    Customized press tools developed around
+                                    specific sheet metal component and
+                                    production requirements.
                                 </p>
 
                                 <span>
@@ -273,20 +280,20 @@ function Industries() {
 
                         <h2>
                             Have A Specific
-                            Component Requirement?
+                            Tooling Requirement?
                         </h2>
 
                         <p>
-                            Share your requirement with our engineering team.
+                            Share your press tool requirement with our team.
                         </p>
 
-                        <a
-                            href="/contact"
+                        <Link
+                            to="/contact"
                             className="cta-btn"
                         >
                             Discuss Your Requirement
                             <i className="bi bi-arrow-right"></i>
-                        </a>
+                        </Link>
 
                     </div>
 

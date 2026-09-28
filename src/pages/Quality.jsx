@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Quality() {
     return (
         <div className="quality-page">
@@ -13,8 +15,8 @@ function Quality() {
                 </h1>
 
                 <p>
-                    A quality-focused approach to reliable industrial
-                    component manufacturing.
+                    A quality-focused approach to reliable sheet metal
+                    press tool manufacturing.
                 </p>
 
             </section>
@@ -57,16 +59,17 @@ function Quality() {
                             </h2>
 
                             <p className="inner-description">
-                                Quality is an important part of our
-                                manufacturing approach. We focus on
-                                maintaining consistency from production
-                                planning through final inspection.
+                                Quality is an important part of Vedant
+                                Enterprises' manufacturing approach. We focus
+                                on maintaining precision and consistency from
+                                tooling production through final inspection.
                             </p>
 
                             <p className="inner-description">
-                                Our processes are designed to support
-                                reliable industrial components that meet
-                                defined customer requirements.
+                                Our processes are designed to support reliable
+                                sheet metal press tools that meet defined
+                                customer requirements and dimensional
+                                expectations.
                             </p>
 
                         </div>
@@ -108,8 +111,8 @@ function Quality() {
                                 </h3>
 
                                 <p>
-                                    Focus on accurate manufacturing and
-                                    consistent component dimensions.
+                                    Focus on accurate tooling manufacturing
+                                    and consistent dimensional requirements.
                                 </p>
 
                             </div>
@@ -128,8 +131,8 @@ function Quality() {
                                 </h3>
 
                                 <p>
-                                    Inspection practices help verify
-                                    component quality before dispatch.
+                                    Measurement and inspection practices help
+                                    verify tooling quality before delivery.
                                 </p>
 
                             </div>
@@ -148,8 +151,8 @@ function Quality() {
                                 </h3>
 
                                 <p>
-                                    Focus on repeatable manufacturing
-                                    processes and dependable output.
+                                    Focus on repeatable manufacturing processes
+                                    and dependable tooling output.
                                 </p>
 
                             </div>
@@ -168,8 +171,9 @@ function Quality() {
                                 </h3>
 
                                 <p>
-                                    Components developed with industrial
-                                    performance and reliability in mind.
+                                    Press tools are developed with dependable
+                                    performance and practical production
+                                    requirements in mind.
                                 </p>
 
                             </div>
@@ -202,8 +206,8 @@ function Quality() {
 
                             <p className="inner-description">
                                 Our quality approach is integrated into the
-                                manufacturing workflow rather than being
-                                limited to final inspection.
+                                tooling manufacturing workflow rather than
+                                being limited to final inspection.
                             </p>
 
                         </div>
@@ -261,20 +265,20 @@ function Quality() {
 
                         <h2>
                             Looking For Reliable
-                            Industrial Components?
+                            Sheet Metal Press Tools?
                         </h2>
 
                         <p>
-                            Discuss your component requirements with our team.
+                            Discuss your tooling requirements with our team.
                         </p>
 
-                        <a
-                            href="/contact"
+                        <Link
+                            to="/contact"
                             className="cta-btn"
                         >
                             Get In Touch
                             <i className="bi bi-arrow-right"></i>
-                        </a>
+                        </Link>
 
                     </div>
 
